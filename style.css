@@ -1,0 +1,41 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  #box {
+    position: relative;
+    width: 800px;
+    height: 50px;
+    border: 2px solid red;
+    background: skyblue;
+    display: flex;
+    align-items: center;
+  }
+  #ball {
+    position: absolute;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: red;
+  }
+  #main-btn{
+      display: flex;
+    flex-direction: row;
+    
+  }
+  button{
+      height: 40px;
+      width: 80px;
+      margin: 0px 20px;
+      border-radius: 10px;
+      color: white;
+  }
+  #start{
+      background-color: green;
+  }
+  #stop{
+      background-color: red;
+  }
